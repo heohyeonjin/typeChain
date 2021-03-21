@@ -1,0 +1,13 @@
+/*Typescript에게 어떻게 JS로 변환하는지 알려주면서 옵션 제공*/
+{
+    "compilerOptions":{
+        "module": "commonjs", // node.js를 평범하게 사용하고 다양한걸 import하거나 export할 수 있게 만듬
+        "target" :"ES2015", //어떤 버전의 JS로 컴파일 되고 싶은지
+        "sourceMap":true, //sourceMap처리 하고싶은지
+        "outDir":"dist" //모든 TS는 src로 들어가고 컴파일 된것들은 dist로 들어감
+
+    },
+   
+    "include":["src/**/*"], //어떤 파일들이 컴파일과정에 포함되는지 TS에 알려줌, 모든것을 SRC안에 컴파일해줌
+    "exclude":["node_modules"]
+}
