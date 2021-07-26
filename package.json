@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Learning Typescript by making a Blockchain with it",
   "main": "index.js",
-  "repository": "https://github.com/heohyeonjin/typechain",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heohyeonjin/typechain.git"
+  },
   "author": "Heohyeonjin",
   "license": "MIT",
   "scripts": {
@@ -17,5 +20,10 @@
   },
   "dependencies": {
     "crypto-js": "^4.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/heohyeonjin/typechain/issues"
+  },
+  "homepage": "https://github.com/heohyeonjin/typechain#readme",
+  "keywords": []
 }
